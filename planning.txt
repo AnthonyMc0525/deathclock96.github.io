@@ -1,0 +1,10 @@
+About page:
+  about-main content:
+    My name is Anthony McMellen. I'm from the humble town of 
+    Lancaster Pensylvania. I graduated highschool from Lampeter-
+    Strasburg. I am currently attending Thaddeus Stevens College
+    for computer software engineering technology.
+
+Project Page:
+  Projects to put on the page:
+    
