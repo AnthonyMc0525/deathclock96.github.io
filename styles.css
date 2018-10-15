@@ -1,0 +1,158 @@
+html {
+  background-image: url(Assets/jj-ying-230105-unsplash.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0px 300px;
+}
+
+div{
+  display: flex;
+}
+
+li.home {
+  list-style-type: none;
+}
+
+h1 {
+  position: relative;
+  top: 10px;
+  margin-left: 5%;
+  display: inline-block;
+  margin: 0px 0px;
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 6rem;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 3em;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul li.home {
+  display: inline;
+}
+
+li.home + li.home {
+  margin-left: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: blue;
+  background-color: rgba(255, 255, 225, .2);
+
+}
+
+li a:hover {
+  color: purple;
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+img.bottomimage {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+img.projects {
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+}
+
+li.projects {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+nav#links.projects {
+  position: relative;
+  left: 6%;
+  top: 40px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+div.github, div.cloud {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+}
+
+label {
+  display: inline-block;
+  height: 20px;
+}
+
+img.github, img.cloud {
+  height: 10rem;
+  width: 10rem;
+}
+
+div.home {
+  margin: 30% 50px 0px 50px;
+  position: relative;
+  right: -400px;
+}
+
+img.cloud {
+  position: absolute;
+  transform: scale(4, 0.75);
+  top: 30%;
+  left: 45%;
+  opacity: .5;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+}
+
+label {
+  font-size: 2rem;
+  border-bottom: 2px solid white;
+  height: 35px;
+}
+
+li a img {
+  border-radius: 25% 10%;
+}
+
+
+div.github {
+  border-bottom: 5px dotted white;
+}
+
+span {
+  position: absolute;
+  white-space: pre;
+  font-size: 2em;
+  color: white;
+  bottom: 0;
+  left: 19%;
+}
+
+li.myprojects {
+  list-style-type: disc;
+}
+
+a#firstproject.projectlink{
+  background-color: rgba(255, 255, 255, .5);
+}
+
+a.projectlink {
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 2px;
+}
