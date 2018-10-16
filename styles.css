@@ -137,19 +137,13 @@ div.github {
 
 span {
   position: absolute;
-<<<<<<< Updated upstream
   white-space: pre;
-=======
->>>>>>> Stashed changes
   font-size: 2em;
   color: white;
   bottom: 0;
   left: 19%;
-<<<<<<< Updated upstream
-=======
   writing-mode: vertical-lr;
   text-orientation: upright;
->>>>>>> Stashed changes
 }
 
 li.myprojects {
@@ -164,11 +158,8 @@ a.projectlink {
   background-color: rgba(255, 255, 255, .5);
   border-radius: 2px;
 }
-<<<<<<< Updated upstream
-=======
 
 p {
   color: white;
   background-color: rgba(255, 183, 195, .5);
 }
->>>>>>> Stashed changes
